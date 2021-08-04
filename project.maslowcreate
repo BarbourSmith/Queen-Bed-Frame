@@ -15,8 +15,8 @@
         {
             "atomType": "Molecule",
             "name": "Support Grid",
-            "x": 0.19472913616398244,
-            "y": 0.2824427480916031,
+            "x": 0.19692532942898977,
+            "y": 0.3053435114503817,
             "uniqueID": 650336,
             "ioValues": [
                 {
@@ -456,44 +456,9 @@
                 },
                 {
                     "atomType": "Molecule",
-                    "name": "Front And Back Legs",
-                    "x": 0.16617862371888725,
-                    "y": 0.8206106870229009,
-                    "uniqueID": 370648,
-                    "ioValues": [
-                        {
-                            "name": "Wood Thickness",
-                            "ioValue": 18
-                        }
-                    ],
-                    "topLevel": false,
-                    "allAtoms": [
-                        {
-                            "atomType": "Input",
-                            "name": "Wood Thickness",
-                            "x": 0.013333333333333334,
-                            "y": 0.4465648854961832,
-                            "uniqueID": 221369,
-                            "ioValues": []
-                        },
-                        {
-                            "atomType": "Output",
-                            "name": "Output",
-                            "x": 0.9853587115666179,
-                            "y": 0.5,
-                            "uniqueID": 547884,
-                            "ioValues": []
-                        }
-                    ],
-                    "allConnectors": [],
-                    "fileTypeVersion": 1,
-                    "simplify": false
-                },
-                {
-                    "atomType": "Molecule",
                     "name": "Vertical Cross Braces",
-                    "x": 0.37774524158125916,
-                    "y": 0.7633587786259541,
+                    "x": 0.3784773060029282,
+                    "y": 0.732824427480916,
                     "uniqueID": 499822,
                     "ioValues": [
                         {
@@ -936,8 +901,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "Add Foot",
-                            "x": 0.19399707174231332,
-                            "y": 0.8129770992366412,
+                            "x": 0.1903367496339678,
+                            "y": 0.8396946564885496,
                             "uniqueID": 727997,
                             "ioValues": [
                                 {
@@ -946,7 +911,7 @@
                                 },
                                 {
                                     "name": "Wood Thickness",
-                                    "ioValue": 10
+                                    "ioValue": 18
                                 }
                             ],
                             "topLevel": false,
@@ -1102,7 +1067,7 @@
                                         },
                                         {
                                             "name": "height",
-                                            "ioValue": 10
+                                            "ioValue": 18
                                         }
                                     ]
                                 },
@@ -1169,7 +1134,7 @@
                                         },
                                         {
                                             "name": "zDist",
-                                            "ioValue": -5
+                                            "ioValue": -9
                                         }
                                     ]
                                 },
@@ -1182,7 +1147,7 @@
                                     "ioValues": [
                                         {
                                             "name": "T",
-                                            "ioValue": 10
+                                            "ioValue": 18
                                         }
                                     ],
                                     "currentEquation": "T/-2"
@@ -1373,6 +1338,13 @@
                             "ap2ID": 563802
                         },
                         {
+                            "ap1Name": "number or geometry",
+                            "ap2Name": "Wood Thickness",
+                            "ap2Primary": false,
+                            "ap1ID": 476049,
+                            "ap2ID": 727997
+                        },
+                        {
                             "ap1Name": "geometry",
                             "ap2Name": "number or geometry",
                             "ap2Primary": false,
@@ -1401,6 +1373,41 @@
                             "ap2ID": 711095
                         }
                     ],
+                    "fileTypeVersion": 1,
+                    "simplify": false
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Front And Back Legs",
+                    "x": 0.16617862371888725,
+                    "y": 0.8206106870229009,
+                    "uniqueID": 370648,
+                    "ioValues": [
+                        {
+                            "name": "Wood Thickness",
+                            "ioValue": 18
+                        }
+                    ],
+                    "topLevel": false,
+                    "allAtoms": [
+                        {
+                            "atomType": "Input",
+                            "name": "Wood Thickness",
+                            "x": 0.013333333333333334,
+                            "y": 0.4465648854961832,
+                            "uniqueID": 221369,
+                            "ioValues": []
+                        },
+                        {
+                            "atomType": "Output",
+                            "name": "Output",
+                            "x": 0.9853587115666179,
+                            "y": 0.5,
+                            "uniqueID": 547884,
+                            "ioValues": []
+                        }
+                    ],
+                    "allConnectors": [],
                     "fileTypeVersion": 1,
                     "simplify": false
                 },
