@@ -4,6 +4,6 @@
 
 ![](/project.svg)
 
-Inspired by: https://www.craigdstover.com/flatpack-bedframe
+Inspired by:Â https://www.craigdstover.com/flatpack-bedframe
 
 
